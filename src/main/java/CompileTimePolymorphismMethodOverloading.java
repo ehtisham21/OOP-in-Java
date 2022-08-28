@@ -32,5 +32,3 @@ void view(int name ,int roll_no){
         
     }
     }
-
-
