@@ -1,12 +1,11 @@
 abstract class reglog{
     abstract void login();
-    abstract void register();
+      void register(){
+          System.out.print("Registered Succssfully ");
+    }
 }
 
 class login extends reglog{
-        void register(){
-          System.out.print("Registered Succssfully ");
-    }
     void login(){
           System.out.print("\n  User Login");
     }
